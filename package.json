@@ -1,0 +1,16 @@
+{
+  "dependencies": {},
+  "devDependencies": {
+    "parcel": "^2.9.2",
+    "prettier": "^2.8.8"
+  },
+  "name": "typescript-playground",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "(npx parcel ./index.html) & npx parcel watch ./index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": "https://github.com/arayhan/typescript-playground.git",
+  "author": "Ahmed Rayhan Primadedas <rayhanprima99@gmail.com>",
+  "license": "MIT"
+}
