@@ -7,7 +7,7 @@ type Book = {
 type Member = {
   name: string;
   phone: string;
-  email?: string;
+  [key: string]: string;
 };
 
 type Library = {
